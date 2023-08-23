@@ -1,7 +1,7 @@
 @extends('layout.app')
 @section('title', 'Our Staff')
 @section('content')
-    <div class="p-6 sm:p-20 bg-gray-100">
+    <div class="p-6 md:p-20 bg-gray-100">
         <div class="text-center my-4">
             <h1 class="font-mono font-bold text-blue-500 text-4xl uppercase mb-4">Our Staff</h1>
             <p class="text-justify text-sm text-gray-400 font-normal">
@@ -14,7 +14,7 @@
                 Aut quasi est ullam tempora nobis!
             </p>
         </div>
-        <div class="grid grid-cols-1 sm:grid-cols-4 gap-6">
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
             
             <div class="bg-white p-6 rounded-lg shadow-md flex flex-col items-center">
                 <!-- Avatar -->

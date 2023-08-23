@@ -37,8 +37,8 @@
 <body>
     <div class="max-w-screen-2xl:flex">
         <header class="mb-0 pb-0">
-            <div class="hidden sm:block clear-both bg-gray-800 align-middle">
-                <div class="p-6 sm:p-6 flex justify-between">
+            <div class="hidden md:block clear-both bg-gray-800 align-middle">
+                <div class="p-6 md:p-6 flex justify-between">
                     <p class="text-white text-sm">Barua Pepe:<a href="mailto: buhangijafdc@moe.go.tz">
                             buhangijafdc@moe.go.tz</a></p>
                     <p class="text-white text-sm"> Simu:<a href="tel:(255) 753 359 899">(255) 753 359 899 |
@@ -47,20 +47,20 @@
                 <!-- /.container -->
             </div>
             {{-- Mid-header --}}
-            <div class="custom-bg px-8 sm:px-16 pt-8 sm:pt-16 w-auto h-auto">
+            <div class="custom-bg px-8 md:px-16 pt-8 md:pt-16 w-auto h-auto">
                 <div class="flex align-middle ">
-                    <div class="hidden sm:block w-auto">
+                    <div class="hidden md:block w-auto">
                         <img src="images/emblem.png" alt="court of arm logo" class="w-32 h-32 mx-auto">
                     </div>
                     <div class="w-auto">
                         <h2 class="align-middle text-center"><span
-                                class="text-3xl sm:text-5xl font-extrabold font-sans">CHUO CHA
+                                class="text-3xl md:text-5xl font-extrabold font-sans">CHUO CHA
                                 MAENDELEO
                                 YA WANANCHI</span><br><span
-                                class="text-xl sm:text-3xl font-semibold font-sans">BUHANGIJA</span><br><span
-                                class="text-md sm:text-lg font-medium">SLP 442, SHINYANGA</span></h2>
+                                class="text-xl md:text-3xl font-semibold font-sans">BUHANGIJA</span><br><span
+                                class="text-md md:text-lg font-medium">SLP 442, SHINYANGA</span></h2>
                     </div>
-                    <div class="hidden sm:block w-auto">
+                    <div class="hidden md:block w-auto">
                         <img src="images/favico.png" alt="Image 1" class="w-32 h-32 mx-auto">
                     </div>
                 </div>
@@ -80,7 +80,7 @@
                                 d="M1 1h15M1 7h15M1 13h15" />
                         </svg>
                     </button>
-                    <div class="hidden w-full sm:block sm:w-auto" id="navbar-dropdown">
+                    <div class="hidden w-full md:block md:w-auto" id="navbar-dropdown">
                         <ul
                             class="flex-col md:flex-row flex md:space-x-8 mt-4 md:mt-0 md:text-sm md:font-medium text-lg text-white">
                             <li>
@@ -177,31 +177,31 @@
     </main>
 
     <footer class="max-w-screen-2xl">
-        <div class="w-full max-w-screen-2xl mx-auto bg-gray-800 p-6 sm:p-16">
-            <div class="flex flex-col sm:flex-row pb-5 sm:p-6">
-                <div class="flex flex-col items-center sm:items-start pb-5 w-full sm:2/5 sm:mr-4">
-                    <div class="sm:pr-4 px-5 sm:px-8 items-start pb-5">
-                        <h2 class="text-xl text-white text-center sm:text-start font-normal mb-2">BUHANGIJA FDC</h2>
+        <div class="w-full max-w-screen-2xl mx-auto bg-gray-800 p-6 md:p-16">
+            <div class="flex flex-col md:flex-row pb-5 md:p-6">
+                <div class="flex flex-col items-center md:items-start pb-5 w-full md:2/5 md:mr-4">
+                    <div class="md:pr-4 px-5 md:px-8 items-start pb-5">
+                        <h2 class="text-xl text-white text-center md:text-start font-normal mb-2">BUHANGIJA FDC</h2>
                         <p class="text-sm text-gray-300 font-extrathin text-justify">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit.
                             Sed enim quod consectetur, assumenda aut ad cumque labore vitae nemo quia,
                             quasi impedit officiis, rerum tenetur nam nulla voluptates ut iste.
                         </p>
                     </div>
-                    <div class="px-5 sm:px-8">
+                    <div class="px-5 md:px-8">
                         <img src="images/favico.png" height="128" width="128" alt="Buhangija FDC Logo">
                     </div>
                 </div>
-                <div class="flex flex-col items-center sm:items-start pb-5 w-full sm:w-1/5 sm:mr-4">
+                <div class="flex flex-col items-center md:items-start pb-5 w-full md:w-1/5 md:mr-4">
                     <h2 class="text-xl text-white font-normal mb-2">Quick Links</h2>
-                    <ul class="text-gray-300 text-center sm:text-left text-sm font-extralight mb-2">
+                    <ul class="text-gray-300 text-center md:text-left text-sm font-extralight mb-2">
                         <li class="pb-2"><a href="#" class="">Home</a></li>
                         <li class="pb-2"><a href="#" class="">About Us</a></li>
                         <li class="pb-2"><a href="#" class="">Services</a></li>
                         <li class="pb-2"><a href="#" class="">News</a></li>
                     </ul>
                 </div>
-                <div class="flex flex-col items-center sm:items-start pb-5 w-full sm:w-1/5 sm:mr-4">
+                <div class="flex flex-col items-center md:items-start pb-5 w-full md:w-1/5 md:mr-4">
                     <h2 class="text-xl text-white font-normal mb-2">Contact Us</h2>
                     <h2 class="text-lg text-gray-300 font-light">Simu:</h2>
                     <ul class="text-sm text-gray-300 font-extralight mb-2">
@@ -222,7 +222,7 @@
                         </li>
                     </ul>
                 </div>
-                <div class="flex flex-col items-center sm:items-start pb-5 w-full sm:w-1/5">
+                <div class="flex flex-col items-center md:items-start pb-5 w-full md:w-1/5">
                     <h2 class="text-xl text-white font-normal mb-2">Other Links</h2>
                     <ul class="text-gray-300 text-sm font-extralight mb-2">
                         <li class="pb-2"><a href="#" class="">VETA</a></li>
@@ -232,8 +232,8 @@
                     </ul>
                 </div>
             </div>
-            <div class="float-none sm:float-left sm:px-14">
-                <h2 class="text-white text-center sm:text-start">Copyright&copy;2023</h2>
+            <div class="float-none md:float-left md:px-14">
+                <h2 class="text-white text-center md:text-start">Copyright&copy;2023</h2>
             </div>
 
         </div>
